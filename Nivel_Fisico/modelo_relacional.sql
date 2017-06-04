@@ -340,5 +340,14 @@ INSERT INTO ROL_US_AS VALUES ('2', 411, 90);
 INSERT INTO ROL_US_AS VALUES ('2', 412, 90);
 INSERT INTO ROL_US_AS VALUES ('2', 413, 90);
 INSERT INTO ROL_US_AS VALUES ('2', 421, 90);
+INSERT INTO ACTIVIDADES VALUES(20, 411, "Tarea", null,20, 50);
+INSERT INTO ACTIVIDADES VALUES(21, 411, "Foros", null ,21, 51);
+INSERT INTO CENTROS VALUES(100, "http://www.uma.es/etsi-informatica/", "etsi-Infórmatica");
+INSERT INTO CONTENIDOS VALUES(50, "Contenido1", null ,null, null, 30, 60, 411);
+INSERT INTO CORREO_INTERNO VALUES(20/05/2017, null, null, 12, 21);
+INSERT INTO CUESTIONARIOS VALUES(60, 20/05/2017, 25/05/2017);
+INSERT INTO DIARIO VALUES(30, "En este diario....");
+INSERT INTO ENTREGA VALUES (70, null, null, 8, 21/05/2017, 12, 100);
+INSERT INTO TAREAS VALUES(100, null, 20/05/2017, 22/05/2017, 21/05/2017, null, null);
 
 ------------------------------------------------------- FIN ----------------------------------------------------------------------
